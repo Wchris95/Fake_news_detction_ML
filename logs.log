@@ -21948,3 +21948,241 @@
 2022-04-24 20:38:01,153:INFO:Copying test dataset
 2022-04-24 20:38:01,154:INFO:Plot type: rfe
 2022-04-24 20:38:01,194:INFO:Fitting Model
+2022-04-25 00:35:37,244:INFO:Visual Rendered Successfully
+2022-04-25 00:36:26,183:INFO:plot_model() succesfully completed......................................
+2022-04-25 00:36:26,200:INFO:Initializing plot_model()
+2022-04-25 00:36:26,200:INFO:plot_model(fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), use_train_data=False, verbose=True, is_in_evaluate=True, display=None, display_format=None, estimator=RandomForestClassifier(bootstrap=True, ccp_alpha=0.0, class_weight=None,
+                       criterion='gini', max_depth=None, max_features='auto',
+                       max_leaf_nodes=None, max_samples=None,
+                       min_impurity_decrease=0.0, min_impurity_split=None,
+                       min_samples_leaf=1, min_samples_split=2,
+                       min_weight_fraction_leaf=0.0, n_estimators=100,
+                       n_jobs=-1, oob_score=False, random_state=6921, verbose=0,
+                       warm_start=False), feature_name=None, fit_kwargs={}, groups=None, label=False, plot=learning, plot_kwargs={}, save=False, scale=1, system=True)
+2022-04-25 00:36:26,200:INFO:Checking exceptions
+2022-04-25 00:36:26,222:INFO:Preparing display monitor
+2022-04-25 00:36:26,228:INFO:Preloading libraries
+2022-04-25 00:36:26,242:INFO:Copying training dataset
+2022-04-25 00:36:26,242:INFO:Copying test dataset
+2022-04-25 00:36:26,242:INFO:Plot type: learning
+2022-04-25 00:36:26,271:INFO:Fitting Model
+2022-04-25 00:37:08,737:INFO:Visual Rendered Successfully
+2022-04-25 00:37:09,378:INFO:plot_model() succesfully completed......................................
+2022-04-26 20:18:26,809:INFO:Initializing tune_model()
+2022-04-26 20:18:26,809:INFO:tune_model(estimator=RandomForestClassifier(bootstrap=True, ccp_alpha=0.0, class_weight=None,
+                       criterion='gini', max_depth=None, max_features='auto',
+                       max_leaf_nodes=None, max_samples=None,
+                       min_impurity_decrease=0.0, min_impurity_split=None,
+                       min_samples_leaf=1, min_samples_split=2,
+                       min_weight_fraction_leaf=0.0, n_estimators=100,
+                       n_jobs=-1, oob_score=False, random_state=6921, verbose=0,
+                       warm_start=False), fold=None, round=4, n_iter=10, custom_grid=None, optimize=Accuracy, custom_scorer=None, search_library=scikit-learn, search_algorithm=None, early_stopping=True, early_stopping_max_iters=10, choose_better=False, fit_kwargs=None, groups=None, return_tuner=False, verbose=True, tuner_verbose=True, display=None, return_train_score=False, kwargs={})
+2022-04-26 20:18:26,809:INFO:Checking exceptions
+2022-04-26 20:18:26,811:INFO:Preparing display monitor
+2022-04-26 20:18:26,830:INFO:Copying training dataset
+2022-04-26 20:18:26,830:INFO:Checking base model
+2022-04-26 20:18:26,830:INFO:Base model : Random Forest Classifier
+2022-04-26 20:18:26,837:INFO:Declaring metric variables
+2022-04-26 20:18:26,842:INFO:Defining Hyperparameters
+2022-04-26 20:18:27,447:INFO:Tuning with n_jobs=-1
+2022-04-26 20:18:27,447:INFO:Initializing RandomizedSearchCV
+2022-04-26 20:18:49,161:INFO:best_params: {'actual_estimator__n_estimators': 140, 'actual_estimator__min_samples_split': 7, 'actual_estimator__min_samples_leaf': 2, 'actual_estimator__min_impurity_decrease': 0, 'actual_estimator__max_features': 1.0, 'actual_estimator__max_depth': 8, 'actual_estimator__criterion': 'entropy', 'actual_estimator__class_weight': {}, 'actual_estimator__bootstrap': True}
+2022-04-26 20:18:49,162:INFO:Hyperparameter search completed
+2022-04-26 20:18:49,162:INFO:SubProcess create_model() called ==================================
+2022-04-26 20:18:49,163:INFO:Initializing create_model()
+2022-04-26 20:18:49,163:INFO:create_model(estimator=RandomForestClassifier(bootstrap=True, ccp_alpha=0.0, class_weight=None,
+                       criterion='gini', max_depth=None, max_features='auto',
+                       max_leaf_nodes=None, max_samples=None,
+                       min_impurity_decrease=0.0, min_impurity_split=None,
+                       min_samples_leaf=1, min_samples_split=2,
+                       min_weight_fraction_leaf=0.0, n_estimators=100,
+                       n_jobs=-1, oob_score=False, random_state=6921, verbose=0,
+                       warm_start=False), fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=True, verbose=True, system=False, metrics=None, experiment_custom_tags=None, add_to_model_list=True, probability_threshold=None, display=<pycaret.internal.Display.Display object at 0x7fbc3988b910>, return_train_score=False, kwargs={'n_estimators': 140, 'min_samples_split': 7, 'min_samples_leaf': 2, 'min_impurity_decrease': 0, 'max_features': 1.0, 'max_depth': 8, 'criterion': 'entropy', 'class_weight': {}, 'bootstrap': True})
+2022-04-26 20:18:49,163:INFO:Checking exceptions
+2022-04-26 20:18:49,163:INFO:Importing libraries
+2022-04-26 20:18:49,163:INFO:Copying training dataset
+2022-04-26 20:18:49,164:INFO:Defining folds
+2022-04-26 20:18:49,164:INFO:Declaring metric variables
+2022-04-26 20:18:49,171:INFO:Importing untrained model
+2022-04-26 20:18:49,171:INFO:Declaring custom model
+2022-04-26 20:18:49,178:INFO:Random Forest Classifier Imported succesfully
+2022-04-26 20:18:49,192:INFO:Starting cross validation
+2022-04-26 20:18:49,193:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=1
+2022-04-26 20:18:59,797:INFO:Calculating mean and std
+2022-04-26 20:18:59,798:INFO:Creating metrics dataframe
+2022-04-26 20:18:59,807:INFO:Finalizing model
+2022-04-26 20:19:00,761:INFO:Uploading results into container
+2022-04-26 20:19:00,761:INFO:Uploading model into container now
+2022-04-26 20:19:00,761:INFO:create_model_container: 16
+2022-04-26 20:19:00,761:INFO:master_model_container: 16
+2022-04-26 20:19:00,761:INFO:display_container: 4
+2022-04-26 20:19:00,762:INFO:RandomForestClassifier(bootstrap=True, ccp_alpha=0.0, class_weight={},
+                       criterion='entropy', max_depth=8, max_features=1.0,
+                       max_leaf_nodes=None, max_samples=None,
+                       min_impurity_decrease=0, min_impurity_split=None,
+                       min_samples_leaf=2, min_samples_split=7,
+                       min_weight_fraction_leaf=0.0, n_estimators=140,
+                       n_jobs=-1, oob_score=False, random_state=6921, verbose=0,
+                       warm_start=False)
+2022-04-26 20:19:00,762:INFO:create_model() succesfully completed......................................
+2022-04-26 20:19:01,359:INFO:SubProcess create_model() end ==================================
+2022-04-26 20:19:01,384:INFO:create_model_container: 16
+2022-04-26 20:19:01,385:INFO:master_model_container: 16
+2022-04-26 20:19:01,385:INFO:display_container: 4
+2022-04-26 20:19:01,385:INFO:RandomForestClassifier(bootstrap=True, ccp_alpha=0.0, class_weight={},
+                       criterion='entropy', max_depth=8, max_features=1.0,
+                       max_leaf_nodes=None, max_samples=None,
+                       min_impurity_decrease=0, min_impurity_split=None,
+                       min_samples_leaf=2, min_samples_split=7,
+                       min_weight_fraction_leaf=0.0, n_estimators=140,
+                       n_jobs=-1, oob_score=False, random_state=6921, verbose=0,
+                       warm_start=False)
+2022-04-26 20:19:01,385:INFO:tune_model() succesfully completed......................................
+2022-04-26 20:20:32,617:INFO:PyCaret NLP Module
+2022-04-26 20:20:32,617:INFO:version 2.3.10
+2022-04-26 20:20:32,617:INFO:Initializing setup()
+2022-04-26 20:20:32,617:INFO:USI: 3b9a
+2022-04-26 20:20:32,617:INFO:setup(data=(10000, 2), target=text, custom_stopwords=None, html=True, session_id=345, log_experiment=False,
+                    experiment_name=None, log_plots=False, log_data=False, verbose=True)
+2022-04-26 20:20:32,617:INFO:Checking environment
+2022-04-26 20:20:32,617:INFO:python_version: 3.8.13
+2022-04-26 20:20:32,617:INFO:python_build: ('default', 'Mar 28 2022 11:38:47')
+2022-04-26 20:20:32,617:INFO:machine: x86_64
+2022-04-26 20:20:32,617:INFO:platform: Linux-5.13.0-40-generic-x86_64-with-glibc2.17
+2022-04-26 20:20:32,618:INFO:Memory: svmem(total=11498631168, available=5752049664, percent=50.0, used=5251276800, free=2175959040, active=1051566080, inactive=7850119168, buffers=178851840, cached=3892543488, shared=174657536, slab=281333760)
+2022-04-26 20:20:32,618:INFO:Physical Core: 6
+2022-04-26 20:20:32,618:INFO:Logical Core: 6
+2022-04-26 20:20:32,618:INFO:Checking libraries
+2022-04-26 20:20:32,618:INFO:pd==1.4.2
+2022-04-26 20:20:32,618:INFO:numpy==1.19.5
+2022-04-26 20:20:32,618:INFO:gensim==3.8.3
+2022-04-26 20:20:32,618:INFO:spacy==3.2.4
+2022-04-26 20:20:32,618:INFO:nltk==3.7
+2022-04-26 20:20:32,618:INFO:textblob==0.17.1
+2022-04-26 20:20:32,618:INFO:pyLDAvis==3.2.2
+2022-04-26 20:20:32,618:INFO:wordcloud==1.8.1
+2022-04-26 20:20:32,618:INFO:mlflow==1.25.1
+2022-04-26 20:20:32,618:INFO:Checking Exceptions
+2022-04-26 20:20:33,276:INFO:Preloading libraries
+2022-04-26 20:20:33,277:INFO:Preparing display monitor
+2022-04-26 20:20:33,293:INFO:Importing libraries
+2022-04-26 20:20:33,293:INFO:Declaring global variables
+2022-04-26 20:20:33,294:INFO:Input provided : dataframe
+2022-04-26 20:20:33,294:INFO:session_id set to : 345
+2022-04-26 20:20:33,294:INFO:Copying training dataset
+2022-04-26 20:20:33,295:INFO:Importing stopwords from nltk
+2022-04-26 20:20:33,359:INFO:No custom stopwords defined
+2022-04-26 20:20:33,360:INFO:Removing numeric characters from the text
+2022-04-26 20:20:34,498:INFO:Removing special characters from the text
+2022-04-26 20:20:40,903:INFO:Tokenizing Words
+2022-04-26 20:20:54,400:INFO:Removing stopwords
+2022-04-26 20:21:02,433:INFO:Extracting Bigrams
+2022-04-26 20:21:28,915:INFO:Extracting Trigrams
+2022-04-26 20:22:13,479:INFO:Lemmatizing tokens
+2022-04-26 20:25:14,832:INFO:Removing stopwords after lemmatizing
+2022-04-26 20:25:19,356:INFO:Creating corpus and dictionary
+2022-04-26 20:25:23,999:INFO:Compiling processed text
+2022-04-26 20:25:24,047:INFO:Compiling information grid
+2022-04-26 20:25:24,066:INFO:setup() succesfully completed......................................
+2022-04-26 20:29:29,515:INFO:Initializing create_model()
+2022-04-26 20:29:29,515:INFO:create_model(model=lsi, multi_core=True, num_topics=None, verbose=True, system=True)
+2022-04-26 20:29:29,515:INFO:Checking exceptions
+2022-04-26 20:29:29,515:INFO:Preloading libraries
+2022-04-26 20:29:29,515:INFO:Preparing display monitor
+2022-04-26 20:29:29,529:INFO:Defining topic model
+2022-04-26 20:29:29,529:INFO:Model: Latent Semantic Indexing
+2022-04-26 20:29:29,529:INFO:Defining num_topics parameter
+2022-04-26 20:29:29,529:INFO:num_topics set to: 4
+2022-04-26 20:29:29,534:INFO:LsiModel imported successfully
+2022-04-26 20:29:31,411:INFO:LsiModel trained successfully
+2022-04-26 20:29:31,417:INFO:LsiModel(num_terms=42043, num_topics=4, decay=1.0, chunksize=20000)
+2022-04-26 20:29:31,417:INFO:create_model() succesfully completed......................................
+2022-04-26 20:29:42,247:INFO:Initializing plot_model()
+2022-04-26 20:29:42,247:INFO:plot_model(model=LsiModel(num_terms=42043, num_topics=4, decay=1.0, chunksize=20000), plot=topic_distribution, topic_num=None, save=False, system=True)
+2022-04-26 20:29:42,247:INFO:Topic selected. topic_num : Topic 0
+2022-04-26 20:29:42,247:INFO:Checking exceptions
+2022-04-26 20:29:42,247:INFO:Importing libraries
+2022-04-26 20:29:42,525:INFO:save_param set to False
+2022-04-26 20:29:42,525:INFO:plot type: topic_distribution
+2022-04-26 20:29:42,530:INFO:SubProcess assign_model() called ==================================
+2022-04-26 20:29:42,530:INFO:Initializing assign_model()
+2022-04-26 20:29:42,530:INFO:assign_model(model=LsiModel(num_terms=42043, num_topics=4, decay=1.0, chunksize=20000), verbose=False)
+2022-04-26 20:29:42,530:INFO:Determining model type
+2022-04-26 20:29:42,530:INFO:model type: lsi
+2022-04-26 20:29:42,530:INFO:Checking exceptions
+2022-04-26 20:29:42,530:INFO:Preloading libraries
+2022-04-26 20:29:42,531:INFO:Preparing display monitor
+2022-04-26 20:29:55,616:INFO:(10000, 7)
+2022-04-26 20:29:55,617:INFO:assign_model() succesfully completed......................................
+2022-04-26 20:29:55,617:INFO:SubProcess assign_model() end ==================================
+2022-04-26 20:29:55,628:INFO:Sorting Dataframe
+2022-04-26 20:29:55,629:INFO:Rendering Visual
+2022-04-26 20:29:56,330:INFO:Visual Rendered Successfully
+2022-04-26 20:29:56,330:INFO:plot_model() succesfully completed......................................
+2022-04-26 20:30:16,476:INFO:Initializing plot_model()
+2022-04-26 20:30:16,476:INFO:plot_model(model=LsiModel(num_terms=42043, num_topics=4, decay=1.0, chunksize=20000), plot=wordcloud, topic_num=None, save=False, system=True)
+2022-04-26 20:30:16,476:INFO:Topic selected. topic_num : Topic 0
+2022-04-26 20:30:16,476:INFO:Checking exceptions
+2022-04-26 20:30:16,476:INFO:Importing libraries
+2022-04-26 20:30:16,481:INFO:save_param set to False
+2022-04-26 20:30:16,481:INFO:plot type: wordcloud
+2022-04-26 20:30:16,481:INFO:SubProcess assign_model() called ==================================
+2022-04-26 20:30:16,481:INFO:Initializing assign_model()
+2022-04-26 20:30:16,481:INFO:assign_model(model=LsiModel(num_terms=42043, num_topics=4, decay=1.0, chunksize=20000), verbose=False)
+2022-04-26 20:30:16,481:INFO:Determining model type
+2022-04-26 20:30:16,481:INFO:model type: lsi
+2022-04-26 20:30:16,481:INFO:Checking exceptions
+2022-04-26 20:30:16,481:INFO:Preloading libraries
+2022-04-26 20:30:16,481:INFO:Preparing display monitor
+2022-04-26 20:30:29,589:INFO:(10000, 7)
+2022-04-26 20:30:29,589:INFO:assign_model() succesfully completed......................................
+2022-04-26 20:30:29,589:INFO:SubProcess assign_model() end ==================================
+2022-04-26 20:30:29,595:INFO:Fitting WordCloud()
+2022-04-26 20:30:44,162:INFO:Rendering Visual
+2022-04-26 20:30:44,307:INFO:Visual Rendered Successfully
+2022-04-26 20:30:44,307:INFO:plot_model() succesfully completed......................................
+2022-04-26 20:31:03,437:INFO:Initializing plot_model()
+2022-04-26 20:31:03,437:INFO:plot_model(model=LsiModel(num_terms=42043, num_topics=4, decay=1.0, chunksize=20000), plot=topic_model, topic_num=None, save=False, system=True)
+2022-04-26 20:31:03,437:INFO:Topic selected. topic_num : Topic 0
+2022-04-26 20:31:03,437:INFO:Checking exceptions
+2022-04-26 20:31:20,806:INFO:Initializing plot_model()
+2022-04-26 20:31:20,806:INFO:plot_model(model=LsiModel(num_terms=42043, num_topics=4, decay=1.0, chunksize=20000), plot=bigram, topic_num=None, save=False, system=True)
+2022-04-26 20:31:20,806:INFO:Topic selected. topic_num : Topic 0
+2022-04-26 20:31:20,806:INFO:Checking exceptions
+2022-04-26 20:31:20,806:INFO:Importing libraries
+2022-04-26 20:31:20,813:INFO:save_param set to False
+2022-04-26 20:31:20,813:INFO:plot type: bigram
+2022-04-26 20:31:20,813:INFO:SubProcess assign_model() called ==================================
+2022-04-26 20:31:20,813:INFO:Initializing assign_model()
+2022-04-26 20:31:20,813:INFO:assign_model(model=LsiModel(num_terms=42043, num_topics=4, decay=1.0, chunksize=20000), verbose=False)
+2022-04-26 20:31:20,813:INFO:Determining model type
+2022-04-26 20:31:20,813:INFO:model type: lsi
+2022-04-26 20:31:20,813:INFO:Checking exceptions
+2022-04-26 20:31:20,813:INFO:Preloading libraries
+2022-04-26 20:31:20,813:INFO:Preparing display monitor
+2022-04-26 20:31:36,567:INFO:(10000, 7)
+2022-04-26 20:31:36,567:INFO:assign_model() succesfully completed......................................
+2022-04-26 20:31:36,568:INFO:SubProcess assign_model() end ==================================
+2022-04-26 20:31:36,570:INFO:Fitting CountVectorizer()
+2022-04-26 20:31:49,300:INFO:Rendering Visual
+2022-04-26 20:31:49,357:INFO:Visual Rendered Successfully
+2022-04-26 20:31:49,357:INFO:plot_model() succesfully completed......................................
+2022-04-26 20:31:52,593:INFO:Initializing plot_model()
+2022-04-26 20:31:52,593:INFO:plot_model(model=LsiModel(num_terms=42043, num_topics=4, decay=1.0, chunksize=20000), plot=pos, topic_num=None, save=False, system=True)
+2022-04-26 20:31:52,593:INFO:Topic selected. topic_num : Topic 0
+2022-04-26 20:31:52,593:INFO:Checking exceptions
+2022-04-26 20:31:52,593:INFO:Importing libraries
+2022-04-26 20:31:52,598:INFO:save_param set to False
+2022-04-26 20:31:52,598:INFO:plot type: pos
+2022-04-26 20:31:52,602:INFO:Fitting TextBlob()
+2022-04-26 20:32:52,447:INFO:Initializing plot_model()
+2022-04-26 20:32:52,447:INFO:plot_model(model=LsiModel(num_terms=42043, num_topics=4, decay=1.0, chunksize=20000), plot=pos, topic_num=None, save=False, system=True)
+2022-04-26 20:32:52,447:INFO:Topic selected. topic_num : Topic 0
+2022-04-26 20:32:52,447:INFO:Checking exceptions
+2022-04-26 20:32:52,447:INFO:Importing libraries
+2022-04-26 20:32:52,455:INFO:save_param set to False
+2022-04-26 20:32:52,455:INFO:plot type: pos
+2022-04-26 20:32:52,460:INFO:Fitting TextBlob()
+2022-04-26 20:33:04,113:INFO:Rendering Visual
+2022-04-26 20:33:04,148:INFO:Visual Rendered Sucessfully
+2022-04-26 20:33:04,149:INFO:plot_model() succesfully completed......................................
